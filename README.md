@@ -22,7 +22,7 @@ The Vector class includes several member functions to facilitate efficient and s
 
 - size() and empty() functions provide information about the vector's current state.
 - clear(), reserve(size_t n), and shrink_to_fit() functions manage the memory and elements, allowing for efficient use of resources.
-- push_back(T x) and pop_back() functions add and remove elements from the end of the vector, respectively.
+- push_back(value_type x) and pop_back() functions add and remove elements from the end of the vector, respectively.
   
 Overloaded operator[] functions provide both mutable and immutable access to elements by index, with bounds checking to ensure safety.
 
